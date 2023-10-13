@@ -25,8 +25,10 @@ btnPlayDomElement.addEventListener('click', function() {
 
         currentCell.addEventListener('click', onClickCell)
     }  
+
 })
 //-creare una funzione ONCLICKCELL che aggiunga a THIS (il soggetto che la invoca = casella corrente nel ciclo) la classe bg-green
 function onClickCell () {
     this.classList.add('bg-blue')
+    console.log(this.innerHTML)
 }
