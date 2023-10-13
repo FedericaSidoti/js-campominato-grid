@@ -13,10 +13,20 @@ btnPlayDomElement.addEventListener('click', function() {
         const cellDomElement = `
         <div class="flex-grid-item">${n}</div>
         `
-        flexGridContainerDomElement.innerHTML += cellDomElement
+        flexGridContainerDomElement.innerHTML += cellDomElement 
+    }
 //    - aggiungere l' eventlistener alla casella stampata con parametri click, ONCLICKCELL
-    }     
-})
+    const cellDomElementNodes = document.querySelectorAll('.flex-grid-item') 
+    
 
+    for( let i = 0; i < cellDomElementNodes.length; i++){
+        let currentCell = cellDomElementNodes[i];
+        //console.log(currentCell)
+
+        currentCell.addEventListener('click', onClickCell)
+    }  
+})
 //-creare una funzione ONCLICKCELL che aggiunga a THIS (il soggetto che la invoca = casella corrente nel ciclo) la classe bg-green
-//(ALLA FINE RIPROVARE CON FUNZIONI PER SVUOTARE E RIEMPIRE)
+function onClickCell () {
+    this.classList.add('bg-blue')
+}
