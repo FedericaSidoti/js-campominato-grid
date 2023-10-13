@@ -30,8 +30,18 @@
     max-width: 900px;
 }
 
+.label-levels {
+    font-size: 20px; 
+}
+
+.select {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
 .btn-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -50,7 +60,6 @@
 }
 
 .flex-grid-item {
-    width: calc(100% / 10);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +69,18 @@
     aspect-ratio: 1;
     font-size: 40px;
     font-weight: bold;
+}
+
+.easy-level {
+    width: calc(100% / 10);
+}
+
+.medium-level {
+    width: calc(100% / 9);
+}
+
+.hard-level {
+    width: calc(100% / 7);
 }
 
 /*UTILITY CLASSES*/
