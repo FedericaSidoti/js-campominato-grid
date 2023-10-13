@@ -25,6 +25,10 @@
 
 /*MAIN*/
 
+.section {
+    margin-bottom: 20px; 
+}
+
 .container {
     margin: 0 auto ; 
     max-width: 900px;
@@ -65,7 +69,6 @@
     align-items: center;
     background-color: gray;
     padding: 10px;
-    border: 1px solid black;
     aspect-ratio: 1;
     font-size: 40px;
     font-weight: bold;
@@ -73,14 +76,17 @@
 
 .easy-level {
     width: calc(100% / 10);
+    border: 3px solid black;
 }
 
 .medium-level {
     width: calc(100% / 9);
+    border: 3px solid green;
 }
 
 .hard-level {
     width: calc(100% / 7);
+    border: 3px solid red;
 }
 
 /*UTILITY CLASSES*/

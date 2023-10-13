@@ -11,7 +11,6 @@ btnPlayDomElement.addEventListener('click', function() {
     const selectDomElement = document.getElementById('levels')
     const selectValue = selectDomElement.options[selectDomElement.selectedIndex].value
     const numberCells = parseInt(selectValue)
-    
 
     for(let i = 0; i < numberCells; i++){
         let n = i + 1; 
