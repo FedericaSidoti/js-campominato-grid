@@ -30,6 +30,11 @@ body {
     color: #980907;
     text-transform: uppercase;
     padding: 10px;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
 }
 
 /*MAIN*/
@@ -70,12 +75,17 @@ body {
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: bold;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
 }
 
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
-    border: 3px solid currentColor;
+    border: 3px solid transparent;
 }
 
 .flex-grid-item {
@@ -91,17 +101,33 @@ body {
 
 .easy-level {
     width: calc(100% / 10);
-    border: 3px solid #000300;
+    border: 3px solid #124235;
+    text-shadow:
+    3px 3px 0 #124235,
+    -3px 3px 0 #124235,
+    -3px -3px 0 #124235,
+    3px -3px 0 #124235;
 }
 
 .medium-level {
     width: calc(100% / 9);
     border: 3px solid #B07A00;
+    text-shadow:
+    3px 3px 0 #B07A00,
+    -3px 3px 0 #B07A00,
+    -3px -3px 0 #B07A00,
+    3px -3px 0 #B07A00;
 }
+
 
 .hard-level {
     width: calc(100% / 7);
     border: 3px solid #980907;
+    text-shadow:
+    3px 3px 0 #980907,
+    -3px 3px 0 #980907,
+    -3px -3px 0 #980907,
+    3px -3px 0 #980907;
 }
 
 /*UTILITY CLASSES*/
