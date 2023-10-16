@@ -75,6 +75,7 @@ body {
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: bold;
+    cursor: pointer;
     text-shadow:
     3px 3px 0 #000,
     -3px 3px 0 #000,
