@@ -26,8 +26,8 @@ body {
 .title {
     font-size: 50px; 
     font-weight: bold;
-    background-color: grey;
-    color: rgb(97, 6, 6);
+    background-color: #576E60;
+    color: #980907;
     text-transform: uppercase;
     padding: 10px;
 }
@@ -65,10 +65,11 @@ body {
 
 .btn {
     padding: 10px 30px; 
-    background-color: rgb(97, 6, 6);
-    color: gray;
+    background-color: #980907;
+    color: #576E60;
     font-size: 30px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .flex-grid {
@@ -80,7 +81,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: #576E60;
     padding: 10px;
     aspect-ratio: 1;
     font-size: 40px;
@@ -89,25 +90,25 @@ body {
 
 .easy-level {
     width: calc(100% / 10);
-    border: 3px solid black;
+    border: 3px solid #000300;
 }
 
 .medium-level {
     width: calc(100% / 9);
-    border: 3px solid green;
+    border: 3px solid #B07A00;
 }
 
 .hard-level {
     width: calc(100% / 7);
-    border: 3px solid red;
+    border: 3px solid #980907;
 }
 
 /*UTILITY CLASSES*/
 
 .bg-blue {
-    background-color: lightskyblue;
+    background-color: #BFD8DF;
 }
 
 .bg-red {
-    background-color: rgb(97, 6, 6);
+    background-color: #980907;
 }
