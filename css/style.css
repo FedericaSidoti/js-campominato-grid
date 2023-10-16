@@ -50,6 +50,9 @@ body {
 
 .select-wrapper {
     padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .label-levels {
@@ -63,9 +66,9 @@ body {
 
 .btn-wrapper {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px; 
 }
 
 .btn {
@@ -129,6 +132,23 @@ body {
     -3px 3px 0 #980907,
     -3px -3px 0 #980907,
     3px -3px 0 #980907;
+}
+
+.counter {
+    padding: 10px; 
+}
+
+.counter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+    background-color: #576E60;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    padding: 10px;
 }
 
 /*UTILITY CLASSES*/
